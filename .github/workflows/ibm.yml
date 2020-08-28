@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: '0 2 * * *'      # 根据自己的需要设置何时重启
+    - cron: '0 2 * * *'      # 根据自己的需要设置何时重 启
 
 jobs:
   ibm-cloud-restart:
